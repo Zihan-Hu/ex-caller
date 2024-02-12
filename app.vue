@@ -20,6 +20,7 @@ promiseTimeout(2000).then(() => show.value = true)
     :locale="zhCN"
   >
     <ExCaller />
+    <Updater />
   </NaiveConfig>
   <Loading
     v-if="!show"
